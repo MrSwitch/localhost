@@ -1,0 +1,15 @@
+{
+  "name": "localhost",
+  "version": "0.0.0",
+  "description": "Http static file server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Dodson",
+  "license": "ISC",
+  "dependencies": {
+    "finalhandler": "^0.4.0",
+    "serve-static": "^1.10.0"
+  }
+}
