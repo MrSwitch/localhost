@@ -6,8 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Andrew Dodson",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/MrSwitch/localhost"
+  },
+  "author": "Andrew Dodson <andrewjdodson@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/MrSwitch/localhost/issues"
+  },
   "dependencies": {
     "finalhandler": "^0.4.0",
     "serve-static": "^1.10.0"
