@@ -1,0 +1,46 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var localhost  = require('../index.js'),
+	portfinder = require('portfinder'),
+	argv       = require('optimist')
+		.boolean('cors')
+		.argv;
+
+var port = argv.p || parseInt(process.env.PORT, 10);
+
+if (!port) {
+	portfinder.basePort = 8080;
+	portfinder.getPort(function (err, port) {
+		if (err) { throw err; }
+		listen(port);
+	});
+}
+else {
+	listen(port);
+}
+
+function listen(port) {
+	localhost(argv._[0] || './').listen(port);
+	console.log("Starting //localhost" + (port !== 80 ? ":" + port : ''));
+}
+
+if (process.platform === 'win32') {
+	require('readline').createInterface({
+		input: process.stdin,
+		output: process.stdout
+	}).on('SIGINT', function () {
+		process.emit('SIGINT');
+	});
+}
+
+process.on('SIGINT', function () {
+	console.info('localhost stopped.'.red);
+	process.exit();
+});
+
+process.on('SIGTERM', function () {
+	console.info('localhost stopped.'.red);
+	process.exit();
+});

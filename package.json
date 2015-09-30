@@ -12,11 +12,16 @@
   },
   "author": "Andrew Dodson <andrewjdodson@gmail.com>",
   "license": "BSD",
+  "bin": {
+  	"localhost": "./bin/localhost"
+  },
   "bugs": {
     "url": "https://github.com/MrSwitch/localhost/issues"
   },
   "dependencies": {
     "finalhandler": "^0.4.0",
-    "serve-static": "^1.10.0"
+    "serve-static": "^1.10.0",
+    "optimist": "0.6.x",
+    "portfinder": "0.4.x"
   }
 }
