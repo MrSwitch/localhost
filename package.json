@@ -4,6 +4,7 @@
   "description": "Http static file server",
   "main": "index.js",
   "scripts": {
+    "start": "node ./bin/localhost",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,9 +20,10 @@
     "url": "https://github.com/MrSwitch/localhost/issues"
   },
   "dependencies": {
-    "finalhandler": "^0.4.0",
-    "serve-static": "^1.10.0",
-    "optimist": "0.6.x",
-    "portfinder": "0.4.x"
+    "finalhandler": "^1.1.0",
+    "optimist": "^0.6.1",
+    "optimistic": "0.0.3",
+    "portfinder": "^1.0.13",
+    "serve-static": "^1.13.1"
   }
 }
