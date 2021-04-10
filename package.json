@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com/MrSwitch/localhost"
+    "url": "https://github.com/MrSwitch/localhost.git"
   },
   "author": "Andrew Dodson <andrewjdodson@gmail.com>",
   "license": "BSD",
