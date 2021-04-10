@@ -1,6 +1,6 @@
 {
   "name": "localhost",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Http static file server",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,8 @@
     "url": "https://github.com/MrSwitch/localhost/issues"
   },
   "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "finalhandler": "^1.1.2",
     "optimist": "^0.6.1",
     "optimistic": "0.0.3",
