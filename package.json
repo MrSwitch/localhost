@@ -4,9 +4,15 @@
   "description": "Http static file server",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "start": "node ./bin/localhost",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint"
   },
+  "files": [
+    "index.js",
+    "server.js",
+    "bin/"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com/MrSwitch/localhost"
@@ -20,10 +26,14 @@
     "url": "https://github.com/MrSwitch/localhost/issues"
   },
   "dependencies": {
-    "finalhandler": "^1.1.0",
+    "finalhandler": "^1.1.2",
     "optimist": "^0.6.1",
     "optimistic": "0.0.3",
-    "portfinder": "^1.0.13",
-    "serve-static": "^1.13.1"
+    "portfinder": "^1.0.28",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-5app": "^0.14.2"
   }
 }

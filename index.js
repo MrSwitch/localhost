@@ -1,6 +1,6 @@
-var http = require('http');
-var serveStatic = require('serve-static');
-var finalhandler = require('finalhandler');
+const http = require('http');
+const serveStatic = require('serve-static');
+const finalhandler = require('finalhandler');
 
 
 module.exports = function(mapping) {
@@ -8,7 +8,7 @@ module.exports = function(mapping) {
 	const [directory, basePath] = mapping.split(':');
 
 	// Serve up the file
-	var serve = serveStatic(directory);
+	const serve = serveStatic(directory);
 
 	// Create server
 	return http.createServer((req, res) => {
@@ -22,4 +22,4 @@ module.exports = function(mapping) {
 		const done = finalhandler(req, res);
 		serve(req, res, done);
 	});
-}
+};
