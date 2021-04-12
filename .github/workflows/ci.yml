@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-      - run: npm i @semantic-release/changelog @semantic-release/git
+      - run: npm i --no-save @semantic-release/changelog @semantic-release/git
       - uses: codfish/semantic-release-action@v1
         with:
           branches: |
