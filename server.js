@@ -1,9 +1,10 @@
 /* eslint-disable no-console */
 const localhost = require('./index.js');
 const portfinder = require('portfinder');
-const argv = require('minimist')(process.argv);
+const argv = require('minimist')(process.argv.slice(2));
 
 const port = argv.p || parseInt(process.env.PORT);
+const dir = argv._.pop() || './';
 
 if (!port) {
 	portfinder.basePort = 8080;
@@ -19,7 +20,7 @@ else {
 }
 
 function listen(port) {
-	localhost(argv._[0] || './').listen(port);
+	localhost(dir).listen(port);
 	console.log(`Starting //localhost${port !== 80 ? `:${port}` : ''}`);
 }
 
