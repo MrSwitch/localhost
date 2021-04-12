@@ -1,3 +1,10 @@
+## [0.3.3](https://github.com/MrSwitch/localhost/compare/v0.3.2...v0.3.3) (2021-04-12)
+
+
+### Bug Fixes
+
+* **deps:** use minimist in place of optimist ([c28d1cf](https://github.com/MrSwitch/localhost/commit/c28d1cfe20ca2fd89190ac10144d44eeeaf02d48))
+
 ## [0.3.2](https://github.com/MrSwitch/localhost/compare/v0.3.1...v0.3.2) (2021-04-12)
 
 
