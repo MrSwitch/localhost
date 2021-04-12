@@ -27,8 +27,7 @@
   },
   "dependencies": {
     "finalhandler": "^1.1.2",
-    "optimist": "^0.6.1",
-    "optimistic": "0.0.3",
+    "minimist": "^1.2.5",
     "portfinder": "^1.0.28",
     "serve-static": "^1.14.1"
   },

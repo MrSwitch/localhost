@@ -1,9 +1,7 @@
 /* eslint-disable no-console */
 const localhost = require('./index.js');
 const portfinder = require('portfinder');
-const argv = require('optimist')
-	.boolean('cors')
-	.argv;
+const argv = require('minimist')(process.argv);
 
 const port = argv.p || parseInt(process.env.PORT);
 
