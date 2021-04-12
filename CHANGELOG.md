@@ -1,3 +1,10 @@
+## [0.3.4](https://github.com/MrSwitch/localhost/compare/v0.3.3...v0.3.4) (2021-04-12)
+
+
+### Bug Fixes
+
+* directory definition ([77570ce](https://github.com/MrSwitch/localhost/commit/77570ce58b28fe014c7677c1970f7f2691539c6e))
+
 ## [0.3.3](https://github.com/MrSwitch/localhost/compare/v0.3.2...v0.3.3) (2021-04-12)
 
 
