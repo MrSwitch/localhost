@@ -1,9 +1,8 @@
-const http = require('http');
-const serveStatic = require('serve-static');
-const finalhandler = require('finalhandler');
+import http from 'http';
+import serveStatic from 'serve-static';
+import finalhandler from 'finalhandler';
 
-
-module.exports = function(mapping) {
+export default function localhost(mapping) {
 
 	const [directory, basePath] = mapping.split(':');
 
@@ -22,4 +21,4 @@ module.exports = function(mapping) {
 		const done = finalhandler(req, res);
 		serve(req, res, done);
 	});
-};
+}
