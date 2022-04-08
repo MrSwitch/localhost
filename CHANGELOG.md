@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/MrSwitch/localhost/compare/v0.3.7...v0.4.0) (2022-04-08)
+
+
+### Features
+
+* **esm:** migrate to esm ([0d1dc51](https://github.com/MrSwitch/localhost/commit/0d1dc51943caeeda5ecd5d1b21af4f1d2250d36b))
+
 ## [0.3.7](https://github.com/MrSwitch/localhost/compare/v0.3.6...v0.3.7) (2022-04-08)
 
 
