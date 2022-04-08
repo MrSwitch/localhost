@@ -2,10 +2,11 @@
   "name": "localhost",
   "version": "0.3.6",
   "description": "Http static file server",
-  "main": "index.js",
+  "type": "module",
+  "main": "./index.js",
   "scripts": {
     "lint": "eslint .",
-    "start": "node ./bin/localhost",
+    "start": "node ./bin/localhost.js",
     "test": "npm run lint"
   },
   "files": [
@@ -20,7 +21,7 @@
   "author": "Andrew Dodson <andrewjdodson@gmail.com>",
   "license": "BSD",
   "bin": {
-    "localhost": "./bin/localhost"
+    "localhost": "./bin/localhost.js"
   },
   "bugs": {
     "url": "https://github.com/MrSwitch/localhost/issues"

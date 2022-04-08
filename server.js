@@ -1,7 +1,9 @@
 /* eslint-disable no-console */
-const localhost = require('./index.js');
-const portfinder = require('portfinder');
-const argv = require('minimist')(process.argv.slice(2));
+import localhost from './index.js';
+import portfinder from 'portfinder';
+import minimist from 'minimist';
+
+const argv = minimist(process.argv.slice(2));
 
 const port = argv.p || parseInt(process.env.PORT);
 const dir = argv._.pop() || './';
