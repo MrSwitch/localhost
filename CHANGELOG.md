@@ -1,3 +1,10 @@
+## [0.3.7](https://github.com/MrSwitch/localhost/compare/v0.3.6...v0.3.7) (2022-04-08)
+
+
+### Bug Fixes
+
+* **deps:** npm audit fix ([c702580](https://github.com/MrSwitch/localhost/commit/c702580d56fa3639585efc4847eb3dcd4fd4930f))
+
 ## [0.3.6](https://github.com/MrSwitch/localhost/compare/v0.3.5...v0.3.6) (2022-04-08)
 
 
