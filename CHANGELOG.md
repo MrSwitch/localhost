@@ -1,3 +1,10 @@
+## [0.3.6](https://github.com/MrSwitch/localhost/compare/v0.3.5...v0.3.6) (2022-04-08)
+
+
+### Bug Fixes
+
+* **deps:** bump ansi-regex from 5.0.0 to 5.0.1 ([#6](https://github.com/MrSwitch/localhost/issues/6)) ([2d304a1](https://github.com/MrSwitch/localhost/commit/2d304a12be030634fcc46094fac9fa30589edc69))
+
 ## [0.3.5](https://github.com/MrSwitch/localhost/compare/v0.3.4...v0.3.5) (2022-04-08)
 
 
