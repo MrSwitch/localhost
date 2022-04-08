@@ -1,3 +1,10 @@
+## [0.3.5](https://github.com/MrSwitch/localhost/compare/v0.3.4...v0.3.5) (2022-04-08)
+
+
+### Bug Fixes
+
+* package.json & package-lock.json to reduce vulnerabilities ([9e517d3](https://github.com/MrSwitch/localhost/commit/9e517d396707a6ba1b8bd6dfc8e56ccfa0dc824b))
+
 ## [0.3.4](https://github.com/MrSwitch/localhost/compare/v0.3.3...v0.3.4) (2021-04-12)
 
 
