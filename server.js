@@ -2,6 +2,7 @@
 import localhost from './index.js';
 import portfinder from 'portfinder';
 import minimist from 'minimist';
+import readline from 'readline';
 
 const argv = minimist(process.argv.slice(2));
 
@@ -27,7 +28,7 @@ function listen(port) {
 }
 
 if (process.platform === 'win32') {
-	require('readline').createInterface({
+	readline.createInterface({
 		input: process.stdin,
 		output: process.stdout
 	}).on('SIGINT', () => {
