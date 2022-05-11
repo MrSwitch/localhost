@@ -1,3 +1,10 @@
+## [0.4.1](https://github.com/MrSwitch/localhost/compare/v0.4.0...v0.4.1) (2022-05-11)
+
+
+### Bug Fixes
+
+* **esm:** windows env ([9df6800](https://github.com/MrSwitch/localhost/commit/9df6800195e77d343a19842309f672f01625abfc))
+
 # [0.4.0](https://github.com/MrSwitch/localhost/compare/v0.3.7...v0.4.0) (2022-04-08)
 
 

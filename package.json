@@ -1,6 +1,6 @@
 {
   "name": "localhost",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Http static file server",
   "type": "module",
   "main": "./index.js",
